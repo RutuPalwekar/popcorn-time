@@ -51,10 +51,28 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+nav {
+  margin: 1rem;
+}
+nav a {
+  padding: 1rem;
+}
+
+form input {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.box {
+  margin: 2rem auto;
+  padding: 0.5rem;
+  border: 1px solid #fff;
+}
+
 
 .card{
   max-width: 80%;
-  margin: 0.5rem auto;
+  margin: 2rem auto;
   padding: 0.5rem;
   border: 1px solid #666;
   box-shadow: 5px 5px 10px -5px;
